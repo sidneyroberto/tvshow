@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+#container {
+  padding: 50px 0;
+}
+
+#details-panel {
+  width: 60%;
+  margin: 0 auto 30px auto;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #fff;
+}
+
+#poster {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.metadata {
+  margin-bottom: 10px;
+}
+
+.metadata-title {
+  font-family: "bold";
+  font-size: 20px;
+}
+
+.metadata-value {
+  font-family: "regular";
+  font-size: 20px;
+}
+
+#back-link {
+  display: block;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-family: "bold";
+  color: #fff;
+  background-color: #2d55ff;
+  padding: 10px 0;
+  border-radius: 10px;
+}
